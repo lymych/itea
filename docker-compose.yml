@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  nginx:
+    image: lymych/lesson2:latest
+    restart: always 
+    ports:
+      - 80:80
